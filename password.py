@@ -20,14 +20,14 @@ def strongPassword(password: str) -> int:
         return max(missing_type, repeat)
         
         
-print(strongPassword("a")) # Output: 5
-print(strongPassword("aA1")) # Output: 3
-print(strongPassword("1337C0d3")) # Output: 0
-print(strongPassword("aaa111")) # Output: 2
-print(strongPassword("abcdef")) # Output: 2
-print(strongPassword("ABABABAB")) # Output: 2
-print(strongPassword("abcABC123")) # Output: 0
-print(strongPassword("abcABC123!")) # Output: 0
+print(strongPassword("a")) 
+print(strongPassword("aA1"))
+print(strongPassword("1337C0d3"))
+print(strongPassword("aaa111"))
+print(strongPassword("abcdef")) 
+print(strongPassword("ABABABAB"))
+print(strongPassword("abcABC123")) 
+print(strongPassword("abcABC123!")) 
 print(strongPassword("abcABC123.!")) # Output: 0
 print(strongPassword("abcABC123.!a")) # Output: 0
 print(strongPassword("abcABC123.!aA")) # Output: 0
